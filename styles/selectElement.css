@@ -1,0 +1,110 @@
+ul{
+    list-style: none;
+    background:whitesmoke;
+    padding-top: 25px;
+    height:400px;
+    width:390px;
+    line-height: 1.5;
+    display:block;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+#number-one{
+    border:1px solid plum;
+    border-radius: 5px;
+    padding:5px 10px;
+    width:252px;
+    margin-bottom: 10px;
+    background-color: plum;
+    display:flex;
+    justify-content: space-between;
+   
+}
+#number-two{
+    border:1px solid plum;
+    border-radius: 5px;
+    padding:5px 10px;
+    width:252px;
+    margin-bottom: 10px;
+    background-color: pink;
+    display:flex;
+    justify-content: space-between;
+
+}
+#number-three{
+    border:1px solid plum;
+    border-radius: 5px;
+    padding:5px 10px;
+    width:252px;
+    margin-bottom: 10px;
+    background-color: lightcoral;
+    display:flex;
+    justify-content: space-between;
+}
+#number-four{
+    border:1px solid plum;
+    border-radius: 5px;
+    padding:5px 10px;
+    width:252px;
+    margin-bottom: 10px;
+    background-color:tomato ;
+    display:flex;
+    justify-content: space-between;
+}
+#number-five{
+    border:1px solid plum;
+    border-radius: 5px;
+    padding:5px 10px;
+    width:252px;
+    margin-bottom: 10px;
+    background-color: mediumorchid;
+    display:flex;
+    justify-content: space-between;
+}
+#number-six{
+    border:1px solid plum;
+    border-radius: 5px;
+    padding:5px 10px;
+    width:252px;
+    margin-bottom: 10px; 
+    background-color: palegoldenrod;
+    display:flex;
+    justify-content: space-between;
+}
+#number-seven{
+    border:1px solid plum;
+    border-radius: 5px;
+    padding:5px 10px;
+    width:252px;
+    margin-bottom: 10px;
+    background-color: lightyellow;
+    display:flex;
+    justify-content: space-between;
+}
+#number-eight{
+    border:1px solid plum;
+    border-radius: 5px;
+    padding:5px 10px;
+    width:252px;
+    margin-bottom: 10px;
+    background-color: lightskyblue;
+    display:flex;
+    justify-content: space-between;
+}
+h3{
+    text-align: center;
+    margin:30px auto;
+    text-decoration: underline;
+    color: blueviolet;
+
+}
+footer{
+    text-align: center;
+}
+a{
+    color: blueviolet;
+}
+body{
+    font-family:sans-serif;
+    font-size:14px;
+}
