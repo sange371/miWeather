@@ -32,7 +32,7 @@ function updateTemperature(response){
     theIcon.setAttribute("src", `https:${response.data.current.condition.icon}`);
     theIcon.setAttribute("alt",response.data.current.condition.text);
     response.data.forecast.forecastday.forEach(function(dayData,index){
-        if (index <6){
+        if (index <5){
             let date=new Date(dayData.date);
             let days2=weekDays[date.getDay()];
             forecastHtml=forecastHtml + `
