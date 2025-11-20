@@ -54,7 +54,7 @@ function changeCity(event){
 
     let cityInput=document.querySelector("#city-name-input");
     let city=cityInput.value.trim();
-    let apiKey="7524fc5d6f2f47dbb82140200251711";
+    let apiKey="7524fc5d6f2f47dbb82140200251711";  
     let apiUrl=`https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${city}&days=7`
 
 
