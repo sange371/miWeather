@@ -20,7 +20,7 @@ function updateTemperature(response){
     let day=days[now.getDay()];
     let minutes=now.getMinutes().toString().padStart(2,"0");
     let hours=now.getHours().toString().padStart(2,"0");
-    let forecastHtml=" ";
+    let forecastHtml= "";
 
 
     heading.innerHTML=response.data.location.name;
@@ -32,7 +32,7 @@ function updateTemperature(response){
     theIcon.setAttribute("src", `https:${response.data.current.condition.icon}`);
     theIcon.setAttribute("alt",response.data.current.condition.text);
     response.data.forecast.forecastday.forEach(function(dayData,index){
-        if (index <5){
+        if (index >0 && index <6){
             let date=new Date(dayData.date);
             let days2=weekDays[date.getDay()];
             forecastHtml=forecastHtml + `
